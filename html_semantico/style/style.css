@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+
+.cabecalho{
+    text-align: center;
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+.container-principal{
+    padding: 1rem;
+    background-color: dimgray;
+}
+ 
+.conteudo-principal{
+    background-color: darkgray;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: calc(100% - 2rem);
+    gap: 1rem;
+    display: flex;
+    margin: 1rem 0 1rem 0;
+}
+
+.menu-navegacao, .anuncio{
+    text-align: center;
+    background-color: gray;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.sessao-principal{
+    width: 70%;
+    background-color: gray;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-div{
+    background-color: slategray;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    width: calc(100% - 2rem);
+    margin: 1rem;
+}
+
+.article-1, .article-2{
+    background-color: lightsteelblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.article-1{
+    height: 250px;
+}
+.article-2{
+    height: 150px;
+}
+
+.imagem {
+    width: calc(100% - 0.125rem);
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.figura{
+    background-color: slategray;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.text-vertical{
+    writing-mode: vertical-rl;
+}
+
+.rodape{
+    background-color: darkgray;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: aliceblue;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+/* ------------------------------------------------------------------------- */
+
+.questao-1{
+    color: #ffc0cd;
+    font-size: 1.5rem;
+}
+
+.questao-2{
+    color: #89F336;
+}
+
+.questao-3{
+    font-size: 1rem;
+    color: #FB6445;
+    text-align: center;
+}
+
+.questao-4{
+    color: purple;
+}
+
+.questao-5{
+    font-size: 0.75rem;
+}
+
+.questao-6{
+    background-color: #1F4277;
+    padding: 1rem;
+    border: 2px solid #2089a2;
+    border-radius: 5px;
+    border-style: dashed;
+    height: 240px;
+}

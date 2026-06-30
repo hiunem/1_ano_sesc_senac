@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #222;
+}
+
+header {
+    background-color: #FFD20A;
+    color: #222;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:  #ffffff;
+}
+
+header figure img {
+    width: 8rem;
+}
+
+.imagem {
+    margin-right: 40px 0;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.produtos {
+    padding: 20px;
+    text-align: center;
+    align-self: center;
+}
+
+.fig1 {
+    background-color: #FFAD0A;
+    padding: 15px;
+    text-align: center;
+    width: 17rem;
+    border: solid 1px #222;
+    border-radius: 5px;
+}
+
+.carrinho {
+    padding: 20px auto;
+    text-align: center;
+    display: flex;
+    width: 30px;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 15rem;
+    border: solid 1px;
+    border-color: #222;
+    border-radius: 5px;
+}
+
+.cardapio {
+    display: flex;
+    gap: 30px;
+    background-color: azure;
+}
+
+.cardapio .fig1 {
+    margin: 20px auto;
+    width: 17rem;
+}
+
+hr {
+    border: none;
+}
+
+.foto_cantina {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(0, 153, 255);
+    padding: 5rem;
+}
+
+main div figure img{
+    width: 15rem;
+}
